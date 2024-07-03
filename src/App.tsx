@@ -8,7 +8,8 @@ function App() {
 
   return (
     <>
-      <h1>update from github.com</h1>
+        <button onClick={() => setCount(prevState => prevState + 1)}></button>
+      <h1>{count}</h1>
     </>
   )
 }
